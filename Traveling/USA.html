@@ -1,0 +1,214 @@
+
+<html>
+ <title>TRAVEL THE WORLD</title>  
+  <head>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+	
+    <!-- ALL VERSION CSS SideBar -->
+    <link rel="stylesheet" href="css/versions.css">	
+	
+	<style>
+	
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: #111111;
+ color: #fff;
+}
+.nav-links a {
+ color: #fff;
+}
+
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+.menu li:hover {
+ background-color: #4c9e9e;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+
+.dropdown {
+ background-color: rgb(1, 139, 139);
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+	</style>
+	
+	
+	
+ </head>
+
+<body class="barber_version">
+ 
+    <div id="wrapper">
+    <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+				<h1 style="color:white">Country</h1>    <hr class="grd1">
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">India</a></li>
+					<li><a class="active" href="USA.html">USA</a></li>
+					<li><a href="Dubai.html">Dubai</a></li>
+					<li><a href="Russia.html">Russia</a></li>
+					<li><a href="New.html">New York</a></li>
+					<li><a href="London.html">London</a></li>
+				</ul>
+			</div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+		
+		<nav class="navbar">
+ <!-- NAVIGATION MENU -->
+ <ul class="nav-links">
+
+ <!-- NAVIGATION MENUS -->
+ <div class="menu">
+ <li><a href="/">Home</a></li>
+ <li><a href="/">About</a></li>
+ <li><a href="/">Contact</a></li>
+ </div>
+ </ul>
+ </nav>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+									<h1>Travel The USA</h1>
+								</div>
+								
+								
+							</div>
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
+
+           
+
+            <div id="contact" class="section wb">
+                <div class="container-fluid">
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        <small>LET'S MAKE AN CONTACT FOR YOUR TRAVELING</small>
+                        <h3>Contact</h3>
+                        <hr class="grd1">
+                       
+                        </div>
+                    </div><!-- end title -->
+
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="contact_form">
+                                <div id="message"></div>
+                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                                    <fieldset class="row-fluid">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                        </div>
+                                      
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block subt">Contact</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+            <div id="map" class="map-box">
+                <div class="container-fluid">
+                    
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="#">Home</a>
+                                <a href="#">About</a>
+                                <a href="#">Contact</a>
+                            </p>
+                            <p class="footer-company-name">All Rights Reserved. &copy;</p>
+                        </div>
+
+            
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
+        </div>
+    </div><!-- end wrapper -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+   <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>
